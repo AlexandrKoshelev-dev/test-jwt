@@ -1,1 +1,3 @@
 # test-jwt
+
+npm init
