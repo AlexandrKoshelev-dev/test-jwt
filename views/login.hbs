@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Авторизация</title>
+  </head>
+  <body>
+    <h1>Авторизация</h1>
+
+    <form action="/auth/login" method="post">
+      <div class="input-field">
+        <input name="username" type="text" class="validate" />
+        <label for="username">Имя</label>
+        <input name="password" type="text" class="validate" />
+        <label for="password">Пароль</label>
+      </div>
+      <button>Вход</button>
+    </form>
+    <form action="/auth/registration" method="get">
+      <button>Зарегистрироваться</button>
+    </form>
+  </body>
+</html>
